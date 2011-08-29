@@ -13,9 +13,9 @@ First, download and install the Shibboleth Authentication Extension (shibauthent
 
 Next, build this project:
 
--Copy the folder inyo your local liferay SDK environment un the hooks folder.
+-Copy the folder into your local liferay SDK environment in the hooks folder.
 -Run the enclosed ant build script (ant deploy)
--If yuor local environment is configured to automatically copy the resulting .war file into your Liferay Deploy folder, it will install automatically for you from there.  Otherwise you can manually copy the .war file into your Liferay deploy folder 
+-If your local environment is configured to automatically copy the resulting .war file into your Liferay Deploy folder, it will install automatically for you from there.  Otherwise you can manually copy the .war file into your Liferay deploy folder
 -OR-
 Upload the file through the Liferay GUI plugins installation screen.
 
