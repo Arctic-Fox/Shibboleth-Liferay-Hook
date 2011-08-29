@@ -1,0 +1,25 @@
+Shibboleth Liferay Hook
+Original JSP Authored by Liferay, Inc.  
+Modifications by Chris Jurado, Johns Hopkins University
+Designed for Liferay Version 6
+
+This is a Liferay Hook project that modifies the Authentication configuration page of Liferay to allow the user to configure Liferay to authenticate through the Shibboleth Web SSO provider.
+
+Note:  This Hook is NOT a standalone project.  In order for it to work, you MUST also install the Shibboleth-Authentication-Extension plugin.
+
+To install:
+
+First, download and install the Shibboleth Authentication Extension (shibauthentication-ext) project and install it per the instructions given in its README file.
+
+Next, build this project:
+
+-Copy the folder inyo your local liferay SDK environment un the hooks folder.
+-Run the enclosed ant build script (ant deploy)
+-If yuor local environment is configured to automatically copy the resulting .war file into your Liferay Deploy folder, it will install automatically for you from there.  Otherwise you can manually copy the .war file into your Liferay deploy folder 
+-OR-
+Upload the file through the Liferay GUI plugins installation screen.
+
+**Configuration**
+Once both this hook and the associated ext plugin have been installed, you can configure Liferay by going to the Authentication screen in Portal Settings and selecting "Shibboleth" from the menu.  Make sure "Enabled" is checked and the apropriate metadata attribute name is entered in the text box.
+
+The original JSP files are Copyrighted by Liferay and licensed under the LGPL license.  All modifications are licensed by Johns Hopkins University under the Apache 2.0 license.
