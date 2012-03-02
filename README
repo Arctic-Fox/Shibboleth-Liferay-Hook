@@ -23,3 +23,4 @@ Upload the file through the Liferay GUI plugins installation screen.
 Once both this hook and the associated ext plugin have been installed, you can configure Liferay by going to the Authentication screen in Portal Settings and selecting "Shibboleth" from the menu.  Make sure "Enabled" is checked and the apropriate metadata attribute name is entered in the text box.
 
 The original JSP files are Copyrighted by Liferay and licensed under the LGPL license.  All modifications are licensed by Johns Hopkins University under the Apache 2.0 license.
+This project incorporates tools whose development was funded in part by the NIH through the NHLBI grant: The Cardiovascular Research Grid (R24HL085343)
